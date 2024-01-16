@@ -48,7 +48,7 @@ const Chats = ({ currId, setCurrId, chats, setChats }) => {
                 setCurrId(c._id);
               }}
             >
-              <ChatBubbleLeftIcon className="w-6 h-6" />
+              <ChatBubbleLeftIcon className="w-6 h-6 shrink-0" />
               <div className="line-clamp-1 text-left">{c.messages[0]?.message||"Chat"}</div>
             </button>
           ))
